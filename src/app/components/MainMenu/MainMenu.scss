@@ -1,0 +1,8 @@
+.mon-menu {
+  padding-top: 16px;
+  min-width: 300px;
+  display: none;
+  &.active {
+    display: block;
+  }
+}

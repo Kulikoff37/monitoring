@@ -1,0 +1,15 @@
+.mon-header {
+  border-bottom: 1px solid rgba(171, 171, 192, 0.4);
+  padding: 0 24px;
+}
+.mon-header-title {
+  text-transform: uppercase;
+}
+.mon-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mon-main-menu {
+  display: block;
+}
