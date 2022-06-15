@@ -8,7 +8,6 @@ export const userSlice = createSlice({
   },
   reducers: {
       setUser: (state, action) => {
-        console.log(action);
         state.isAuth = action.payload.isAuth;
         state.userName = action.payload.userName;
       },
