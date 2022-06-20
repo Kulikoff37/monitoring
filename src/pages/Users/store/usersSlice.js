@@ -1,9 +1,9 @@
-import { userApi } from '../api/userApi';
+import { userAPI } from '../api/userApi';
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchUsers = createAsyncThunk(
   'users/fetchUsers',
-  async () => await userApi.fetchUsers()
+  async () => await userAPI.fetchUsersTest()
 )
 
 export const usersSlice = createSlice({
